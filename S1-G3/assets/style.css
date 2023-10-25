@@ -1,0 +1,53 @@
+.container {
+    width: 
+}
+
+header {
+  text-align: center;
+}
+
+header .sottotitolo {
+  color: #004d4c;
+  background-color: #fdfbf1;
+  border-top: 2px solid #ffd877;
+  padding: 20px;
+}
+
+figcaption {
+  color: #999999;
+}
+
+.logo {
+  width: 20%;
+}
+
+.recipe {
+  border-left: 2px solid #ffd877;
+  padding: 0 0 0 1em;
+  margin: 0;
+}
+
+.top-recipe {
+  color: red;
+  margin: 0;
+}
+
+a {
+  color: #107777;
+}
+
+.ingredients {
+  font-size: 1.5em;
+}
+
+.method {
+  font-size: 1.5em;
+}
+
+hr {
+  border: 1px solid #c3f3f2;
+}
+
+img {
+  border-radius: 15px;
+}
