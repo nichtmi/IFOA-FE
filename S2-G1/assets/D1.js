@@ -15,7 +15,8 @@ REGOLE
 number = dato di tipo numerico intero o decimale, con quest'ultimo espresso con il punto;
 boolean = dato espresso da due valori: vero o falso;
 null = dato di tipo vuoto ( che non è zero );
-undefined = dato di tipo non definito, almeno nel momento in cui viene espresso; */
+undefined = dato di tipo non definito, almeno nel momento in cui viene espresso;
+*/
 
 /* ESERCIZIO 2
  Crea una variable chiamata "name" e assegna ad essa il tuo nome, sotto forma di stringa.
@@ -40,13 +41,13 @@ let x = 12;
 console.log(x);
 
 /* ESERCIZIO 5
-  Riassegna un nuovo valore alla variabile "name" già esistente: il tuo cognome.
+  Riassegna un nuovo valore alla variabile "myName" già esistente: il tuo cognome.
   Dimostra l'impossibilità di riassegnare un valore ad una variabile dichiarata con il costrutto const.
 */
 /* SCRIVI QUI LA TUA RISPOSTA */
 myName = 'Michelagnoli';
 console.log(myName);
-const costante = 'non variabile';
+
 
 /* ESERCIZIO 6
  Esegui una sottrazione tra i numeri 4 e la variable "x" appena dichiarata (che contiene il numero 12).
@@ -63,10 +64,13 @@ console.log(y - x);
 /* SCRIVI QUI LA TUA RISPOSTA */
 let name1 = 'john';
 let name2 = 'John';
-let name3 = name2.toLowerCase();
-console.log(name1 == name3);
+let verifica = name1 === name2;
+console.log(verifica);
+let altraVerifica = name1.toLowerCase() === name2.toLowerCase();
+console.log(altraVerifica);
 
 
 // ESERCIZIO 5b
+const costante = 'non variabile';
 costante = 'variabile';
 console.log(costante);
