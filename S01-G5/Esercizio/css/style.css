@@ -1,0 +1,60 @@
+body {
+  margin: 0;
+  font-family: Montserrat;
+  text-align: center;
+}
+
+figure {
+  background-color: black;
+  margin: 0;
+  padding: 5.3vh;
+}
+
+h1 {
+  font-size: 3em;
+}
+
+.titolo {
+  color: #25a2c3;
+  font-weight: 600;
+}
+
+.primo {
+  background-image: url("../images/banner.jpg");
+  padding: 50px;
+}
+
+.testo {
+  font-size: 1.8em;
+  line-height: 1.5em;
+  font-weight: 300;
+}
+
+button {
+  background-color: #fe4524;
+  color: white;
+  padding: 20px 40px;
+  border-radius: 15px;
+  border: 0px;
+  font-weight: 700;
+  font-size: large;
+}
+
+section {
+    padding-top: 30px;
+}
+
+.round-image {
+  border-radius: 50%;
+  padding: 100px;
+}
+
+footer {
+  background-color: #21aacb;
+  color: white;
+}
+
+.titolo-footer {
+  font-size: 3em;
+  font-weight: 600;
+}
