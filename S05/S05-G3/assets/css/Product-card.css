@@ -1,0 +1,50 @@
+body {
+  color: #5a290d;
+  font-family: sans-serif;
+}
+
+.card {
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  background-color: #faf7e4;
+  max-width: 250px;
+  border-radius: 75px;
+  overflow: hidden;
+}
+
+.card img {
+  flex-basis: 240px;
+  object-fit: cover;
+}
+
+span {
+  font-weight: bold;
+}
+
+.text {
+   display: flex;
+   justify-content: space-around;
+   align-items: center;
+   margin-top: 20px;
+}
+
+button {
+  background-color: #f0e08d;
+  padding: 8px 45px;
+  border: none;
+  cursor: pointer;
+  border-radius: 30px;
+  margin-bottom: 15px;
+  color: #5a290d;
+}
+
+.it {
+  font-size: 14px;
+  padding-top: 0;
+  margin-top: 3px;
+}
+
+.prize {
+  margin-top: 0;
+}
