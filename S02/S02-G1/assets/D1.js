@@ -74,3 +74,4 @@ console.log(altraVerifica);
 const costante = 'non variabile';
 costante = 'variabile';
 console.log(costante);
+
