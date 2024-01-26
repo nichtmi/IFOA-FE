@@ -1,0 +1,61 @@
+body {
+    height: 100vh;
+    background-image: url('/background-img.jpg');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    }
+
+.searchbar {
+  margin-top: 10vh;
+}
+
+.inputfield {
+  width: 30%;
+  border-radius: 50px;
+  border: 1px solid #00005c;
+  padding: 10px 50px;
+  text-align: center;
+  opacity: 0.6;
+  font-weight: bold;
+  font-size: large;
+  text-transform: uppercase;
+  color: white;
+}
+
+.inputfield:focus {
+  background: radial-gradient(#87baee 50%, #00005c);
+  
+  animation: borderAnimation 1s ;
+}
+
+@keyframes borderAnimation {
+  0% {
+    border-width: 1px;
+  }
+  50% {
+    border-width: 1px 20px;
+  }
+  100% {
+    border-width: 1px;
+  }
+}
+
+.buttonSearch {
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+  cursor: pointer;
+  border: none;
+  margin-left: 20px;
+  background-color: #87baee;
+}
+
+.buttonSearch:hover {
+  background-color: #00005c;
+}
+
+.formSearchBar {
+  display: flex;
+  justify-content: center;
+}

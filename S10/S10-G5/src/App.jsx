@@ -1,16 +1,17 @@
-import './App.css';
-import SearchBox from './components/Searchbox';
+import React from 'react';
+import SearchBar from './components/SearchBar.jsx';
+import './App.css'
 
-function App() {
+const App = () => {
   
   return (
     <>
-      <SearchBox>
-        
-      </SearchBox>
+      <div>
+        <SearchBar />
+      </div>
+      
     </>
-  )
-}
+  );
+};
 
 export default App;
-
